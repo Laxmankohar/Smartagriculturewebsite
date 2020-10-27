@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+	height: 3090px;
+    background-color: white;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+header{
+	width: 100%;
+    height: 70px;
+    
+	background-color: #050505;
+}
+
+ul{
+	width: auto;
+	float: left;
+	margin-top: 8px;
+}
+li{
+	display: inline-block;
+	padding: 15px 40px;
+}
+.smart-agriculture{
+	color: rgb(20, 250, 20);
+	font-size: 30px;
+    padding: 16px 20px;
+	border-left: 0;
+	text-align: left;
+
+	
+}
+.smart-agriculture:hover{
+    color: green;
+}
+
+a{
+	text-align: center;
+	color: #dae0e0;
+	text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px 5px;
+}
+a:hover{
+	color: orangered;
+	transition: 0.5s;
+}
+li a.active {
+    background-color: rgb(3, 32, 2);
+}
+footer{
+	background:black;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	color:white;
+	text-align: center;
+	position: fixed;
+	font-size: 20px;
+	
+
+}
+.last-page a{
+	color: rgb(245, 238, 238);
+	margin-left: 20px;
+	font-size: medium;
+	font-weight: 500;
+	text-decoration: none;
+}
+.copyright{
+    text-transform: capitalize;
+    color: white;
+}
+footer{ 
+    background-color: black;
+    color: white;
+}
+.logout-btn{
+    width: 120px;
+    text-align: left;
+    font-size: 20px;
+	color:rgb(7, 255, 81);
+    background-color: #050505; 
+    border: none;
+    outline: none;
+	margin-left: 130px;
+    margin-top: -40px;
+    position: absolute; 
+}
+.logout-btn:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.image-1{
+    margin-top: -5px;
+    float: right;
+    position: relative;
+}
+.img-credit-1{
+    margin-left: 70px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description-1{
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 65%;
+    
+}
+.paragraph-1{
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description-2{
+    margin-top: 60px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 65%;
+}
+.image-2{
+    margin-top: -5px;
+    float: left;
+    position: relative;
+}
+.img-credit-2{
+    margin-right: 50px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-2{
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading-1{
+    margin-top: 50px;    
+    margin-left: 350px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.heading-para-1{
+    margin-left: 350px;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.image-3{
+    margin-top: -5px;
+    width: 10%;
+    height: 10%;
+    float: left;
+    
+}
+.img-credit-3{
+    
+    width: 200%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-3{
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.device-2{
+    margin-top: 140px;
+}
+.image-4{
+    margin-top: -5px;
+    margin-right: 200px;
+    width: 10%;
+    height: 10%;
+    float: right;
+    position: relative;
+    
+}
+.img-credit-4{
+    width: 200%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-4{
+    margin-bottom: 140px;
+    margin-right: 300px;
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.point-2{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+.image-5{
+    margin-top: -5px;
+    width: 10%;
+    height: 10%;
+    float: left;
+    
+}
+.img-credit-5{
+    width: 200%;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-5{
+    margin-left: 300px;
+    margin-bottom: 550px;
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.device-3{
+    height: 400px; 
+}
+.image-6{
+    margin-top: -5px;
+    margin-bottom: 200px;
+    margin-right: 150px;
+    width: 10%;
+    height: 10%;
+    float: right;
+    position: relative;
+    
+}
+.img-credit-6{
+    width: 200%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-6{
+    margin-bottom: auto;
+    margin-right: 300px;
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image-7{
+    margin-top: -5px;
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+.img-credit-7{
+    width: 200%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-7{
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-bottom: 550px;
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.device-5{
+    height: 400px;
+}
+.image-8{
+    margin-top: -5px;
+    margin-bottom: 200px;
+    margin-right: 150px;
+    width: 10%;
+    height: 10%;
+    float: right;
+    position: relative;
+    
+}
+.img-credit-8{
+    width: 200%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-8{
+    margin-bottom: auto;
+    margin-right: 300px;
+    text-align: justify;
+    text-transform: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.show-data h2{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.data-page-1{
+    width: 370px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+	color: rgb(241, 191, 25);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+.container{
+    width: 370px;
+	margin-left: 500px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content:space-around;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;	
+	border-radius: 5px 5px;
+	border: 2px solid black;
+}
+input[type="text"], input[type="number"],input[type="date"]{
+	width: 240px;
+	height: 10px;
+	margin-top: 2%;
+	margin-bottom: 10px;
+	margin-left: 50px; 
+	padding: 15px;
+	font-size: 16px;
+	font-family: 'Abel',sans-serif;
+	color:"#5E6472";
+	outline: none;
+	border: 2px solid green;
+	border-radius: 5px 5px 5px 5px;
+	/* transition: 0.2s linear; */
+}
+input:focus{
+	transform: translate(-2px);
+	border-radius: 5px;
+}
+.date{
+    margin-right: 50px;
+}
+button{
+	/* display:inline-block; */
+	/* color: #252537; */
+	width: 240px;
+	height: 35px;
+	padding:0 20px;
+	/* background: #fff; */
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.2s linear;
+	margin-top: 5% ;
+	letter-spacing: 0.05em;
+}
+.submit{
+    margin-left: -15px;
+	color:black;
+    background-color:orangered;
+    margin-bottom: 10px;
+}
+.submit a{
+    margin-left: -15px;
+	color:black;
+    background-color:orangered;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    border: 2px solid black;
+    background-color: cyan;
+}
+th ,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+h2{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(47, 245, 7);
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ground-page{
+    margin-top: 80px;
+    background-color:rgb(0, 0, 0, 0.5);
+    height: 50%;
+	width: 100%;
+	color:rgb(13, 216, 155);
+	text-align: right;
+	position: absolute;
+	font-size: 20px;
+}
+
+p{
+    margin-right: 10px;
+}
+.social-link a{
+    color: rgb(255, 0, 179);
+    line-height: 5%;
+    margin-top: -10%;
+    margin-bottom: 50%;
+    margin-right: 100%;
+}
+.social-heading{
+    float: left;
+    color: #dae0e0;
+}
+.sharda{
+    text-align: center;
+    color: crimson;
+}
+.sharda-logo{
+    width: 10%;
+    margin-top: -20%;
+}
